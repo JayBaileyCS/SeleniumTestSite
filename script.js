@@ -5,7 +5,7 @@ function addNumber(num) {
 function validateInput(num) {
   var inputVal = document.getElementById("inputBox").value;
   if (inputVal == num) {
-    window.location.href = "/correct"; // This will navigate to <site root>/correct
+    window.location.href = "/SeleniumTestSite/correct"; // This will navigate to <site root>/correct
   } else {
     document.getElementById("inputBox").value = ""; // Clear the input box
   }
