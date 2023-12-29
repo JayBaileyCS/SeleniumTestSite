@@ -1,0 +1,27 @@
+#keypad {
+  width: 210px;
+  margin: auto;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+#inputBox {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+#enterButton {
+  width: 100%;
+  margin: 10px 0;
+  /* Any additional styling you want for the ENTER button */
+}
